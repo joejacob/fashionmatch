@@ -12,7 +12,7 @@
 		D365A0881B9F3C9700A19C28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D365A0871B9F3C9700A19C28 /* Images.xcassets */; };
 		D365A08B1B9F3C9700A19C28 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D365A0891B9F3C9700A19C28 /* LaunchScreen.xib */; };
 		D365A0971B9F3C9700A19C28 /* fashionmatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D365A0961B9F3C9700A19C28 /* fashionmatchTests.swift */; };
-		D3A549E41B9F417A00629BE0 /* feedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A549E31B9F417A00629BE0 /* feedViewController.swift */; };
+		D37D8C941B9F926200501CBF /* feedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D8C931B9F926200501CBF /* feedViewController.swift */; };
 		D3A549E61B9F41A700629BE0 /* cameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A549E51B9F41A700629BE0 /* cameraViewController.swift */; };
 		D3A549E81B9F41CC00629BE0 /* wardrobeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A549E71B9F41CC00629BE0 /* wardrobeViewController.swift */; };
 /* End PBXBuildFile section */
@@ -37,7 +37,7 @@
 		D365A0901B9F3C9700A19C28 /* fashionmatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fashionmatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D365A0951B9F3C9700A19C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D365A0961B9F3C9700A19C28 /* fashionmatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fashionmatchTests.swift; sourceTree = "<group>"; };
-		D3A549E31B9F417A00629BE0 /* feedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = feedViewController.swift; path = ../feedViewController.swift; sourceTree = "<group>"; };
+		D37D8C931B9F926200501CBF /* feedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = feedViewController.swift; path = ../feedViewController.swift; sourceTree = "<group>"; };
 		D3A549E51B9F41A700629BE0 /* cameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cameraViewController.swift; sourceTree = "<group>"; };
 		D3A549E71B9F41CC00629BE0 /* wardrobeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = wardrobeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,8 +81,8 @@
 		D365A07B1B9F3C9700A19C28 /* fashionmatch */ = {
 			isa = PBXGroup;
 			children = (
-				D3A549E31B9F417A00629BE0 /* feedViewController.swift */,
 				D3A549E51B9F41A700629BE0 /* cameraViewController.swift */,
+				D37D8C931B9F926200501CBF /* feedViewController.swift */,
 				D3A549E71B9F41CC00629BE0 /* wardrobeViewController.swift */,
 				D365A07E1B9F3C9700A19C28 /* AppDelegate.swift */,
 				D365A0841B9F3C9700A19C28 /* Main.storyboard */,
@@ -217,9 +217,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3A549E41B9F417A00629BE0 /* feedViewController.swift in Sources */,
 				D3A549E61B9F41A700629BE0 /* cameraViewController.swift in Sources */,
 				D365A07F1B9F3C9700A19C28 /* AppDelegate.swift in Sources */,
+				D37D8C941B9F926200501CBF /* feedViewController.swift in Sources */,
 				D3A549E81B9F41CC00629BE0 /* wardrobeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

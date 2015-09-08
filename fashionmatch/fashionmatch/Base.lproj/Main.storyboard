@@ -44,15 +44,21 @@
                                 <state key="normal" title="Take photo">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="takePhoto:" destination="1B8-yY-U6N" eventType="touchUpInside" id="8me-jJ-V7u"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="7HA-Tz-91P"/>
+                    <connections>
+                        <outlet property="camView" destination="fnI-uH-0Du" id="klJ-rN-6e1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6nK-Um-WLo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="839" y="-485"/>
+            <point key="canvasLocation" x="879" y="-573"/>
         </scene>
         <!--Item-->
         <scene sceneID="8Fv-BZ-2UE">
@@ -90,7 +96,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Flm-ta-htS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="899" y="1059"/>
+            <point key="canvasLocation" x="879" y="1135"/>
         </scene>
     </scenes>
 </document>
